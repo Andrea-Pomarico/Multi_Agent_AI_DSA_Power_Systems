@@ -23,7 +23,7 @@ Pipeline — single-case
                                   mitigation measures (optional)
 Usage
 -----
-  python Multi_Agent_RMS_google.py
+  python Multi_Agent_AI_DSA_Power_Systems.py
 
 Configuration
 -------------
