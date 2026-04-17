@@ -37,18 +37,18 @@ simulation_config.json
 
 ## Agent overview
 
-| Agent | File | Model | Role |
+| Agent | File | Role |
 |---|---|---|---|
-| 0 — Intake | `agent_intake.py` | LLM Fast | Parses natural language or JSON into case dicts |
-| 1 — Simulation | `agent_simulation.py` | — | Runs PowerFactory RMS via `DIgSILENTAgent` |
-| 2 — Analysis | `agent_analysis.py` | — | Extracts KPIs from ComRes CSV |
-| 3 — Plot | `agent_plot.py` | — | Generates PNG time-series charts |
-| 4 — Summary | `agent_llm_reporting.py` | LLM Fast | Writes first narrative draft |
-| 5 — Review | `agent_llm_reporting.py` | LLM Fast | Cross-checks numbers against KPIs |
-| 6 — Final report | `agent_llm_reporting.py` | LLM Smart | Applies corrections, polishes report |
-| 7 — Comparison | `agent_llm_reporting.py` | LLM Smart | Cross-case risk assessment |
-| 8 — Presentation | `agent_presentation.py` | — | Builds `.pptx` from report + plots |
-| 9 — Mitigation | `agent_mitigation.py` | LLM Smart | Two-stage grid analysis + ranked actions |
+| 0 — Intake | `agent_intake.py` | Parses natural language or JSON into case dicts |
+| 1 — Simulation | `agent_simulation.py` | Runs PowerFactory RMS via `DIgSILENTAgent` |
+| 2 — Analysis | `agent_analysis.py` | Extracts KPIs from ComRes CSV |
+| 3 — Plot | `agent_plot.py` | Generates PNG time-series charts |
+| 4 — Summary | `agent_llm_reporting.py` | Writes first narrative draft |
+| 5 — Review | `agent_llm_reporting.py` | Cross-checks numbers against KPIs |
+| 6 — Final report | `agent_llm_reporting.py` | Applies corrections, polishes report |
+| 7 — Comparison | `agent_llm_reporting.py` | Cross-case risk assessment |
+| 8 — Presentation | `agent_presentation.py` | Builds `.pptx` from report + plots |
+| 9 — Mitigation | `agent_mitigation.py` | Two-stage grid analysis + ranked actions |
 
 ---
 
