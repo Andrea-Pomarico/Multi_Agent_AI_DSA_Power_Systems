@@ -1,0 +1,69 @@
+{
+    "llm": {
+        "provider": "gemini",
+        "api_keys": {
+            "gemini": "YOUR_GEMINI_API_KEY_HERE",
+            "groq":   "YOUR_GROQ_API_KEY_HERE"
+        },
+        "models_by_provider": {
+            "gemini": {
+                "fast":  "gemini-2.5-flash-lite",
+                "smart": "gemini-2.5-flash"
+            },
+            "groq": {
+                "fast":  "llama-3.1-8b-instant",
+                "smart": "llama-3.3-70b-versatile"
+            }
+        }
+    },
+
+    "project_path":    "\\<username>\\<project_folder>\\<project_name>.IntPrj",
+    "study_case":      "Case 1",
+    "base_study_case": "0. Base",
+
+    "output_dir":   "C:\\path\\to\\your\\output\\folder",
+    "run_label":    "Test_1",
+    "result_name":  "All calculations.ElmRes",
+
+    "word_document":          0,
+    "final_word_document":    0,
+    "final_presentation":     0,
+    "run_review_agent":       0,
+    "run_final_report_agent": 0,
+    "run_mitigation_agent":   0,
+
+    "cases": [
+        {
+            "case_name": "Fault_1",
+            "fault_type": "bus",
+            "fault_element": "Bus 25.ElmTerm",
+            "t_start": 0.0,
+            "t_fault": 1.0,
+            "t_clear": 1.08,
+            "t_end": 10.0,
+            "dt_rms": 0.01,
+            "word_document": 0
+        },
+        {
+            "case_name": "Fault_2",
+            "fault_type": "line",
+            "fault_element": "Line 03 - 04.ElmLne",
+            "t_start": 0.0,
+            "t_fault": 1.0,
+            "t_clear": 1.08,
+            "t_end": 10.0,
+            "dt_rms": 0.01,
+            "word_document": 0
+        },
+        {
+        "case_name": "Fault_3",
+        "fault_type": "gen_switch",
+        "switch_element": "G 07.ElmSym",
+        "t_switch": 1.0,
+        "switch_state": 0,
+        "t_end": 10.0,
+        "dt_rms": 0.01,
+        "word_document": 0
+        }
+    ]
+}
