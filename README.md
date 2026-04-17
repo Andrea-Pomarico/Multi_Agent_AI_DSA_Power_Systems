@@ -39,7 +39,7 @@ simulation_config.json
 
 ```
 .
-├── Multi_Agent_RMS_google.py      # Main entry point
+├── Multi_Agent_AI_DSA_Power_Systems.py      # Main entry point
 ├── Agent_DIgSILENT.py             # PowerFactory wrapper + SimulationConfig
 ├── agent_intake.py                # Agent 0
 ├── agent_simulation.py            # Agent 1
