@@ -51,9 +51,8 @@ simulation_config.json
 ├── llm_client.py                  # Provider-agnostic LLM wrapper
 ├── prompt_loader.py               # Loads system prompts from CSV
 ├── report_utils.py                # Disk persistence helpers
-├── agent_prompts.csv              # All LLM system prompts (editable)
-├── simulation_config_example.json # Template config (safe to commit)
-├── simulation_config.json         # Your local config (gitignored)
+├── agent_prompts.csv              # All LLM system prompts
+├── simulation_config_example.json # Template config
 ├── requirements.txt
 └── README.md
 ```
